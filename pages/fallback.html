@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flor Essence</title>
+    <link rel="stylesheet" href="/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+    <link rel="manifest" href="/manifest.json">
+</head>
+
+
+<body class="grey lighten-4">
+    <nav class="z-depth-0">
+        <div class="nav-wrapper container">
+            <a href="/">Flor<span> Essence</a>
+            <span class="right white-text text-darken-3">
+                <i class="material-icons sidenav-trigger" data-target="side-menu">menu</i>
+            </span>
+        </div>
+    </nav>
+
+    <ul id="side-menu" class="sidenav side-menu">
+        <li><a class="subheader">Flor Essence</a></li>
+        <li><a href="/" class="waves-effect"><i class="material-icons">home</i>Home</a></li>
+        <li><a href="/pages/about.html" class="waves-effect" ><i class = "material-icons">info_outline</i>About</a>
+            </li>
+        </li>
+        <li><a href="/pages/contact.html" class="waves-effect"><i class="material-icons">mail_outline</i>Contact</a>
+        </li>
+    <div class="divider"></div>
+        <li class = "logged-in">
+            <a href = "#" class = "waves-effect modal-trigger" data-target = "modal-account">Account</a>
+        </li>
+        <li class = "logged-in">
+            <a href = "#" class = "waves-effect" id = "logout">Logout</a>
+        </li>
+        <li class = "logged-out">
+            <a href = "#" class = "waves-effect modal-trigger" data-target = "modal-login">Login</a>
+        </li>
+        <li class = "logged-out">
+            <a href = "#" class = "waves-effect modal-trigger" data-target = "modal-signup">Sign Up</a>
+        </li>
+        <li>
+    </ul>
+
+    <!-- Content -->
+    <div class="container grey-text center">
+        <h5>OOPS!</h5>
+        <p>Currently you cannot view this page offline</p>
+        <a href="/" class="btn-small orange">Go to Homepage</a>
+    </div>
+
+    <script type = "text/javascript" src="/js/ui.js"></script>
+    <script type = "text/javascript" src="/js/app.js"></script>
+    <script type="module" src="/js/db.js"></script>
+    <script type="module" src="/js/auth.js"></script>
+</body>
+
+</html>

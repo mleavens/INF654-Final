@@ -1,0 +1,109 @@
+/* colors */
+:root {
+    --primary: #283618;
+    --secondary: #606c38;
+    --title: #fefae0;
+}
+
+  /* layout styles */
+nav {
+    background: var(--primary);
+    border-bottom: 10px solid var(--secondary);
+    height: 100px;
+}
+nav a {
+    text-transform: uppercase;
+    color: var(--title);
+}
+nav a span {
+    font-weight: bold;
+    font-size: 40px;
+}
+nav .sidenav-trigger {
+    margin: 0;
+}
+
+
+nav .sidenav-trigger:hover {
+    cursor: pointer;
+}
+
+.nav-wrapper a {
+    font-size: 30px;
+}
+
+.nav-wrapper .container {
+    background-color:#283618
+}
+
+  /* plant styles */
+.plants {
+    margin-top: 20px;
+}
+.card-panel.plant {
+    border-radius: 8px;
+    padding: 50px;
+    box-shadow: 0px 1px 3px rgba(90, 90, 90, 0.1);
+    display: grid;
+    grid-template-columns: 2fr 6fr 1fr;
+    grid-template-areas: "image details delete";
+    position: relative;
+}
+.plant img {
+    grid-area: image;
+    max-width: 120px;
+}
+.plant-details {
+    grid-area: details;
+    margin-top: 6px;
+}
+.plant-delete {
+    grid-area: delete;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.plant-delete i {
+    font-size: 40px;
+}
+.plant-title {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.plant-description{
+font-size: 20px;
+}
+
+.plant-ingredients {
+    font-size: 0.8em;
+}
+
+.center i {
+    font-size: 30px;
+}
+
+
+  /* form-styles */
+.add-btn {
+    background: var(--primary) !important;
+}
+input {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+.side-form button {
+    background: var(--primary);
+    box-shadow: 1px 1px 3px rgba(90, 90, 90, 0.2);
+}
+form .input-field {
+    margin-top: 30px;
+}
+
+.center .title {
+    font-size: 35px;
+}
+
+.para {
+    font-size: 20px;
+}

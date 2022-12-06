@@ -1,0 +1,40 @@
+{
+    "name": "Flor Essence",
+    "short_name": "FL",
+    "description": "Manage your plants",
+    "start_url": "/index.html",
+    "scope": ".",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#fefae0",
+    "theme_color": "#283618",
+    "dir": "ltr",
+    "lang": "en-US",
+    "icons": [
+        {
+            "src": "/img/icons/icon-48x48.png",
+            "type": "image/png",
+            "sizes": "54x48"
+        },
+        {
+            "src": "/img/icons/icon-72x64.png",
+            "type": "image/png",
+            "sizes": "72x64"
+        },
+        {
+            "src": "/img/icons/icon-96x85.png",
+            "type": "image/png",
+            "sizes": "96x85"
+        },
+        {
+            "src": "/img/icons/icon-128x113.png",
+            "type": "image/png",
+            "sizes": "128x113"
+        },
+        {
+            "src": "/img/icons/icon-144x144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        }
+    ]
+}
